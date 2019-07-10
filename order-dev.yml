@@ -11,3 +11,4 @@ PRODUCT:
   ribbon:
     NFLoadBalancerRuleClientName: com.netflix.loadbalancer.RandomRule
 env: dev
+label: release
