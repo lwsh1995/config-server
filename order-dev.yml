@@ -14,3 +14,7 @@ env:
   test2
 label:
   release
+
+entity:
+  name: config
+  version: one
