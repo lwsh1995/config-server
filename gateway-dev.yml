@@ -1,6 +1,6 @@
 zuul:
   routes:
-    order: /myOrder/**
+    order: /test/**
 management:
   endpoints:
     web:
