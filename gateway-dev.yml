@@ -1,9 +1,6 @@
 zuul:
   routes:
     order: /myOrder/**
-  ignored-patterns: 
-    - /**/order/env
-    - /**/order/getProduct
 management:
   endpoints:
     web:
