@@ -1,0 +1,11 @@
+zuul:
+  routes:
+    myOrder:
+      path: /myOrder/**
+      serviceId: order
+      sensitiveHeaders:
+management:
+  endpoints:
+    web:
+      exposure:
+        include: routes
